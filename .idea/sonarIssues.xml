@@ -18,6 +18,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/testfiles/require.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/testfiles/route-url.js">
+          <value>
+            <set />
+          </value>
+        </entry>
       </map>
     </option>
   </component>
