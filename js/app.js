@@ -4,8 +4,14 @@
 angular.module('app',[
 	'ui-router',
 	'oc.lazyLoad'])
-	
-.config()
+	//路由配置
+.config(["$stateProvider", "$urlRouterProvider", "routerProvider",'$ocLazyLoadProvider',function ($stateProvider,$urlRouterProvider,routerProvider,$ocLazyLoadProvider) {
+	var _lazyLoad = function (loaded) {
+		return function ($ocLazyLoad) {
+			
+		}
+	}
+}])
 //可以配置http设置
 function httpConfig($httpProvider) {
 	//统一设置content-type
@@ -22,4 +28,5 @@ function httpConfig($httpProvider) {
 		return $.param(data);
 	};
 }
+
 
