@@ -1,12 +1,20 @@
 /**
  * Created by issuser on 2017/5/18.
  */
-var path = require('path');
-const HtmlWebpackPlugin = required('')
+const path = require('path');
+const webpack = require('webpack')
+//const HtmlWebpackPlugin = required('html')
 module.exports = {
-	entry:'./index.js',
+	entry:{
+		vendor:[
+			'angular',
+			'angular-ui-router'
+		],
+		//入口
+		app:'./index.js'
+	},
 	output: {
-		filename: "bundle.js",
+		filename: "[name].[chunkhash].js",
 		path: path.resolve(__dirname, 'dist')
 	},
 	module: {
@@ -17,8 +25,12 @@ module.exports = {
 					{loader: "css-loader"},
 					{loader: "style-loader",options:{modules:true}}
 				]
-			},
-			
+			}
 		]
-	}
+	},
+	plugins: [
+		new webpack.optimize.CommonsChunkPlugin({
+			name:'vendor'
+		})
+	]
 };

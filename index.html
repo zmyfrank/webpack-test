@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app>
 <head>
     <meta charset="UTF-8">
     <title>My app</title>
 </head>
-<body>
+<body ng-controller="MainCtrl">
 <div ui-view></div>
+<h2>{{ vm.name }}</h2>
 </body>
 
-<script src="app/dist/bundle.js"></script>
+<script src="dist/bundle.js"></script>
 </html>

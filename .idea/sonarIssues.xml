@@ -3,7 +3,62 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="D:/WorkSoftware/eclipse/Work/insure.ui/src/main/staticres/insure/main.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/WorkSoftware/eclipse/Work/insure.ui/src/main/staticres/js/motorjs/app.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/WorkSoftware/eclipse/Work/insure.ui/src/main/staticres/motor/0502/proposal/proposal.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/WorkSoftware/eclipse/Work/insure.ui/src/main/staticres/motor/production/list.html">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/.gitignore">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/index.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/index.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/js/app.config.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/js/main/main.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/package.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/webpack.config.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/study-html/vendor/oclazyLoad/ocLazyLoad.min.js">
           <value>
             <set />
           </value>
